@@ -10,8 +10,8 @@ async def start(client, message):
     user = message.from_user
     await madflixbotz.add_user(client, message)                
     button = InlineKeyboardMarkup([[
-      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/ZPro_Bots'),
-      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+FGM0HOnjDC45ZDk1')
+      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/AeroBots_Tm'),
+      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/AeroBots_Group')
     ],[
       InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
       InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
@@ -33,13 +33,13 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton('📢 Uᴘᴅᴀᴛᴇs', url='https://t.me/ZPro_Bots'),
-                InlineKeyboardButton('💬 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+FGM0HOnjDC45ZDk1')
+                InlineKeyboardButton('📢 Uᴘᴅᴀᴛᴇs', url='https://t.me/AeroBots_Tm'),
+                InlineKeyboardButton('💬 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/AeroBots_Group')
                 ],[
                 InlineKeyboardButton('⚙️ Hᴇʟᴘ', callback_data='help'),
                 InlineKeyboardButton('😊 Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                InlineKeyboardButton("🍁 ᴍᴀsᴛᴇʀ 🍁", url='https://t.me/Devil_Eyes_ZX')
+                InlineKeyboardButton("🍁 ᴍᴀsᴛᴇʀ 🍁", url='https://t.me/Mikoyo')
                 ]])
         )
     elif data == "caption":

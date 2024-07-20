@@ -16,7 +16,7 @@ async def start(client, message):
       InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
       InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
     ],[
-        InlineKeyboardButton("🍁 ᴍᴀsᴛᴇʀ 🍁", url='https://t.me/Devil_Eyes_ZBot')
+        InlineKeyboardButton("🍁 ᴍᴀsᴛᴇʀ 🍁", url='https://t.me/Mikoyo')
     ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       

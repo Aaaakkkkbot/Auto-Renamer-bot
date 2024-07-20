@@ -44,7 +44,7 @@ class Txt(object):
 <b>✓ episode :- ᴛᴏ ʀᴇᴘʟᴀᴄᴇ ᴇᴘɪsᴏᴅᴇ ɴᴜᴍʙᴇʀ</b>
 <b>✓ quality :- ᴛᴏ ʀᴇᴘʟᴀᴄᴇ ᴠɪᴅᴇᴏ ʀᴇsᴏʟᴜᴛɪᴏɴ</b>
 
-<b>➻ Exᴀᴍᴘʟᴇ :</b> <code> /autorename [S1-Eepisode] [quality] Naruto Shippuden [@Anime_Infinitely] </code>
+<b>➻ Exᴀᴍᴘʟᴇ :</b> <code> /autorename [S1-Eepisode] [quality] Naruto Shippuden [@AeroBots_Tm] </code>
 
 <b>➻ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇ ғᴏʀᴍᴀᴛ :</b> <code>{format_template}</code> """
     
